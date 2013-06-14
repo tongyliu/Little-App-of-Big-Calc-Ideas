@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2136B941176BC64500E3FC1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B940176BC64500E3FC1E /* UIKit.framework */; };
+		2136B943176BC64500E3FC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B942176BC64500E3FC1E /* Foundation.framework */; };
+		2136B945176BC64500E3FC1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B944176BC64500E3FC1E /* CoreGraphics.framework */; };
+		2136B94B176BC64500E3FC1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2136B949176BC64500E3FC1E /* InfoPlist.strings */; };
+		2136B94D176BC64500E3FC1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B94C176BC64500E3FC1E /* main.m */; };
+		2136B951176BC64500E3FC1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B950176BC64500E3FC1E /* AppDelegate.m */; };
+		2136B953176BC64500E3FC1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B952176BC64500E3FC1E /* Default.png */; };
+		2136B955176BC64500E3FC1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B954176BC64500E3FC1E /* Default@2x.png */; };
+		2136B957176BC64500E3FC1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B956176BC64500E3FC1E /* Default-568h@2x.png */; };
+		2136B95A176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2136B958176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard */; };
+		2136B95D176BC64500E3FC1E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2136B95B176BC64500E3FC1E /* MainStoryboard_iPad.storyboard */; };
+		2136B960176BC64500E3FC1E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B95F176BC64500E3FC1E /* MasterViewController.m */; };
+		2136B963176BC64500E3FC1E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B962176BC64500E3FC1E /* DetailViewController.m */; };
+		2136B96B176BC64600E3FC1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B96A176BC64600E3FC1E /* SenTestingKit.framework */; };
+		2136B96C176BC64600E3FC1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B940176BC64500E3FC1E /* UIKit.framework */; };
+		2136B96D176BC64600E3FC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B942176BC64500E3FC1E /* Foundation.framework */; };
+		2136B975176BC64600E3FC1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2136B973176BC64600E3FC1E /* InfoPlist.strings */; };
+		2136B978176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B977176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2136B96E176BC64600E3FC1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2136B935176BC64500E3FC1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2136B93C176BC64500E3FC1E;
+			remoteInfo = "Little App of Big Calc Ideas - Native";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2136B93D176BC64500E3FC1E /* Little App of Big Calc Ideas - Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little App of Big Calc Ideas - Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2136B940176BC64500E3FC1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2136B942176BC64500E3FC1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2136B944176BC64500E3FC1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2136B948176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Little App of Big Calc Ideas - Native-Info.plist"; sourceTree = "<group>"; };
+		2136B94A176BC64500E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2136B94C176BC64500E3FC1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2136B94E176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little App of Big Calc Ideas - Native-Prefix.pch"; sourceTree = "<group>"; };
+		2136B94F176BC64500E3FC1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2136B950176BC64500E3FC1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2136B952176BC64500E3FC1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2136B954176BC64500E3FC1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2136B956176BC64500E3FC1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2136B959176BC64500E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		2136B95C176BC64500E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2136B95E176BC64500E3FC1E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2136B95F176BC64500E3FC1E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2136B961176BC64500E3FC1E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2136B962176BC64500E3FC1E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little App of Big Calc Ideas - NativeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2136B96A176BC64600E3FC1E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2136B972176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Little App of Big Calc Ideas - NativeTests-Info.plist"; sourceTree = "<group>"; };
+		2136B974176BC64600E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2136B976176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little_App_of_Big_Calc_Ideas___NativeTests.h"; sourceTree = "<group>"; };
+		2136B977176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Little_App_of_Big_Calc_Ideas___NativeTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2136B93A176BC64500E3FC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B941176BC64500E3FC1E /* UIKit.framework in Frameworks */,
+				2136B943176BC64500E3FC1E /* Foundation.framework in Frameworks */,
+				2136B945176BC64500E3FC1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2136B965176BC64600E3FC1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B96B176BC64600E3FC1E /* SenTestingKit.framework in Frameworks */,
+				2136B96C176BC64600E3FC1E /* UIKit.framework in Frameworks */,
+				2136B96D176BC64600E3FC1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2136B934176BC64500E3FC1E = {
+			isa = PBXGroup;
+			children = (
+				2136B946176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */,
+				2136B970176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests */,
+				2136B93F176BC64500E3FC1E /* Frameworks */,
+				2136B93E176BC64500E3FC1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2136B93E176BC64500E3FC1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2136B93D176BC64500E3FC1E /* Little App of Big Calc Ideas - Native.app */,
+				2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2136B93F176BC64500E3FC1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2136B940176BC64500E3FC1E /* UIKit.framework */,
+				2136B942176BC64500E3FC1E /* Foundation.framework */,
+				2136B944176BC64500E3FC1E /* CoreGraphics.framework */,
+				2136B96A176BC64600E3FC1E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2136B946176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */ = {
+			isa = PBXGroup;
+			children = (
+				2136B94F176BC64500E3FC1E /* AppDelegate.h */,
+				2136B950176BC64500E3FC1E /* AppDelegate.m */,
+				2136B958176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard */,
+				2136B95B176BC64500E3FC1E /* MainStoryboard_iPad.storyboard */,
+				2136B95E176BC64500E3FC1E /* MasterViewController.h */,
+				2136B95F176BC64500E3FC1E /* MasterViewController.m */,
+				2136B961176BC64500E3FC1E /* DetailViewController.h */,
+				2136B962176BC64500E3FC1E /* DetailViewController.m */,
+				2136B947176BC64500E3FC1E /* Supporting Files */,
+			);
+			path = "Little App of Big Calc Ideas - Native";
+			sourceTree = "<group>";
+		};
+		2136B947176BC64500E3FC1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2136B948176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Info.plist */,
+				2136B949176BC64500E3FC1E /* InfoPlist.strings */,
+				2136B94C176BC64500E3FC1E /* main.m */,
+				2136B94E176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Prefix.pch */,
+				2136B952176BC64500E3FC1E /* Default.png */,
+				2136B954176BC64500E3FC1E /* Default@2x.png */,
+				2136B956176BC64500E3FC1E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2136B970176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2136B976176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.h */,
+				2136B977176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m */,
+				2136B971176BC64600E3FC1E /* Supporting Files */,
+			);
+			path = "Little App of Big Calc Ideas - NativeTests";
+			sourceTree = "<group>";
+		};
+		2136B971176BC64600E3FC1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2136B972176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests-Info.plist */,
+				2136B973176BC64600E3FC1E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2136B93C176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2136B97B176BC64600E3FC1E /* Build configuration list for PBXNativeTarget "Little App of Big Calc Ideas - Native" */;
+			buildPhases = (
+				2136B939176BC64500E3FC1E /* Sources */,
+				2136B93A176BC64500E3FC1E /* Frameworks */,
+				2136B93B176BC64500E3FC1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Little App of Big Calc Ideas - Native";
+			productName = "Little App of Big Calc Ideas - Native";
+			productReference = 2136B93D176BC64500E3FC1E /* Little App of Big Calc Ideas - Native.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2136B968176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2136B97E176BC64600E3FC1E /* Build configuration list for PBXNativeTarget "Little App of Big Calc Ideas - NativeTests" */;
+			buildPhases = (
+				2136B964176BC64600E3FC1E /* Sources */,
+				2136B965176BC64600E3FC1E /* Frameworks */,
+				2136B966176BC64600E3FC1E /* Resources */,
+				2136B967176BC64600E3FC1E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2136B96F176BC64600E3FC1E /* PBXTargetDependency */,
+			);
+			name = "Little App of Big Calc Ideas - NativeTests";
+			productName = "Little App of Big Calc Ideas - NativeTests";
+			productReference = 2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2136B935176BC64500E3FC1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Tong;
+			};
+			buildConfigurationList = 2136B938176BC64500E3FC1E /* Build configuration list for PBXProject "Little App of Big Calc Ideas - Native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2136B934176BC64500E3FC1E;
+			productRefGroup = 2136B93E176BC64500E3FC1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2136B93C176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */,
+				2136B968176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2136B93B176BC64500E3FC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B94B176BC64500E3FC1E /* InfoPlist.strings in Resources */,
+				2136B953176BC64500E3FC1E /* Default.png in Resources */,
+				2136B955176BC64500E3FC1E /* Default@2x.png in Resources */,
+				2136B957176BC64500E3FC1E /* Default-568h@2x.png in Resources */,
+				2136B95A176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard in Resources */,
+				2136B95D176BC64500E3FC1E /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2136B966176BC64600E3FC1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B975176BC64600E3FC1E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2136B967176BC64600E3FC1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2136B939176BC64500E3FC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B94D176BC64500E3FC1E /* main.m in Sources */,
+				2136B951176BC64500E3FC1E /* AppDelegate.m in Sources */,
+				2136B960176BC64500E3FC1E /* MasterViewController.m in Sources */,
+				2136B963176BC64500E3FC1E /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2136B964176BC64600E3FC1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2136B978176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2136B96F176BC64600E3FC1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2136B93C176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */;
+			targetProxy = 2136B96E176BC64600E3FC1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2136B949176BC64500E3FC1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2136B94A176BC64500E3FC1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2136B958176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2136B959176BC64500E3FC1E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2136B95B176BC64500E3FC1E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2136B95C176BC64500E3FC1E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2136B973176BC64600E3FC1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2136B974176BC64600E3FC1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2136B979176BC64600E3FC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2136B97A176BC64600E3FC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2136B97C176BC64600E3FC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
+				INFOPLIST_FILE = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2136B97D176BC64600E3FC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
+				INFOPLIST_FILE = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2136B97F176BC64600E3FC1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little App of Big Calc Ideas - Native.app/Little App of Big Calc Ideas - Native";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
+				INFOPLIST_FILE = "Little App of Big Calc Ideas - NativeTests/Little App of Big Calc Ideas - NativeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2136B980176BC64600E3FC1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little App of Big Calc Ideas - Native.app/Little App of Big Calc Ideas - Native";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
+				INFOPLIST_FILE = "Little App of Big Calc Ideas - NativeTests/Little App of Big Calc Ideas - NativeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2136B938176BC64500E3FC1E /* Build configuration list for PBXProject "Little App of Big Calc Ideas - Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2136B979176BC64600E3FC1E /* Debug */,
+				2136B97A176BC64600E3FC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2136B97B176BC64600E3FC1E /* Build configuration list for PBXNativeTarget "Little App of Big Calc Ideas - Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2136B97C176BC64600E3FC1E /* Debug */,
+				2136B97D176BC64600E3FC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2136B97E176BC64600E3FC1E /* Build configuration list for PBXNativeTarget "Little App of Big Calc Ideas - NativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2136B97F176BC64600E3FC1E /* Debug */,
+				2136B980176BC64600E3FC1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2136B935176BC64500E3FC1E /* Project object */;
+}
