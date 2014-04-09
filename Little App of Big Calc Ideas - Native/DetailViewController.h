@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface DetailViewController : UIViewController <UIWebViewDelegate>
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property NSArray* initialTopics;
+@property NSString* category;
+@property NSString* deletedIdea;
+@property BOOL comingFromDelete;
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end
+

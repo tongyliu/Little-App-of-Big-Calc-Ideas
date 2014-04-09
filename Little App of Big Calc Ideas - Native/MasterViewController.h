@@ -10,8 +10,11 @@
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <UISearchBarDelegate, UISearchDisplayDelegate>
 
-@property (strong, nonatomic) DetailViewController *detailViewController;
+@property (strong, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
+@property IBOutlet UISearchBar *searchBar;
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
 
 @end

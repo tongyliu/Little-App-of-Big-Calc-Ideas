@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <style>
+            .ui-page { background: white; }
+            .ui-footer { background: white; }
+            </style>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <title>Little App of Big Calc Ideas</title>
+    </head>
+    <body>
+        <div data-role="page" >
+            <div data-role="content">
+                If <em>f</em> is continuous over [a, b] and differentiable over (a, b), then the following is true.<br/>
+                <br/>
+                <b>Mean Value Theorem:</b><br/>
+                The slope of the tangent line will equal the slope of the secant line at at least one point c within (a,b).<br/>
+                <img src="eqn/mvt.gif" class="eqn" alt="mvt" height="40px"/><br/>
+                <br/>
+                <b>Rolle's Theorem:</b><br/>
+                This is a special case of the mean vaule theorem that applies if the slope of the secant line is 0. It states that there will be a place where the slope of the tangent line is zero within (a, b).
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

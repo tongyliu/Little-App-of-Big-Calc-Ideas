@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Little App of Big Calc Ideas - NativeTests");
+    XCTFail(@"Unit tests are not implemented yet in Little App of Big Calc Ideas - NativeTests");
 }
 
 @end

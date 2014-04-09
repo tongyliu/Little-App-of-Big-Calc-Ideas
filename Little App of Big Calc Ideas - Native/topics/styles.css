@@ -1,0 +1,12 @@
+.eqn {
+    margin: 0.5em 0px;
+}
+
+.inline {
+    margin-top: 0.5em;
+}
+
+div.page { 
+       -webkit-transform: translate3d(0,0,0);
+} 
+

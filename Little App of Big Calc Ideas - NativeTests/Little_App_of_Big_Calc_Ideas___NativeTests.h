@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Tong. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface Little_App_of_Big_Calc_Ideas___NativeTests : SenTestCase
+@interface Little_App_of_Big_Calc_Ideas___NativeTests : XCTestCase
 
 @end

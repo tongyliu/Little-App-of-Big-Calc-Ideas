@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <link rel="stylesheet" href="styles.css"/>
+        <style>
+            .ui-page { background: white; }
+            .ui-footer { background: white; }
+        </style>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <title>Little App of Big Calc Ideas</title>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="content">
+                The second derivative test uses <em>f"(x)</em> to find relative extrema.<br/>
+                <br/>
+                <b>Procedure:</b>
+                <ol>
+                    <li>Find critical values of <em>f'(x)</em></li>
+                    <li>Find <em>f"(x)</em></li>
+                    <li>Plug in critical values to <em>f"(x)</em></li>
+                </ol>
+				<b>Results:</b>
+                <ul>
+                    <li>If <em>f"(x)</em> < 0 then the critical value is a relative max.</li>
+                    <li>If <em>f"(x)</em> > 0 then the critical value is a relative min.</li>
+                    <li>If <em>f"(x)</em> = 0 then the test is inconclusive.</li>
+				</ul>
+				Note: Critical values are not guaranteed extrema, but all relative extrema will be at critical values. 
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

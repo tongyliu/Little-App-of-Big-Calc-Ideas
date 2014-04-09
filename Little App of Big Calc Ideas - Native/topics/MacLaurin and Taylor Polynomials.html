@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <style>
+            .ui-page { background: white; }
+            .ui-footer { background: white; }
+            </style>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <title>Little App of Big Calc Ideas</title>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="content">
+                To approximate a transcendental function, we create n<sup>th</sup> degree polynomial functions that match the n<sup>th</sup> derivatives of the transcendental.<br/>
+                <br/>
+                <b>MacLaurin Polynomial:</b>
+                <ul>
+                    <li>Centered around <i>x = 0</i></li>
+                    <li><img src="eqn/maclaurinPoly.gif" width="250px"/></li>
+                </ul>
+                <br/>
+                <b>Taylor Polynomial:</b>
+                <ul>
+                    <li>Centered around <i>x = a</i></li>
+                    <li><img src="eqn/taylorPoly.png"  width="250px"/></li>
+                </ul>
+                </br>
+                <b>Error:</b><br/>
+                The MacLaurin or Taylor approximation will will be no more than R<sub>n</sub> off from the actual value.</br>
+                <img src="eqn/lagrange.gif" class="eqn"/><br/>
+                This is also called the LaGrange error.
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+        <style>
+            .ui-page { background: white; }
+            .ui-footer { background: white; }
+            </style>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+        <title>Little App of Big Calc Ideas</title>
+    </head>
+    <body>
+        <div data-role="page" >
+            <div data-role="content">
+                <b>U-substitution procedure:</b><br/>
+                <ol>
+                    <li>Pick a <em>“u”</em></li>
+                    <li>Find <em>du</em>: <em>du = u'dx</em></li>
+                    <li>Create a <em>du</em> in the function</li>
+                    <li>Evalauate the integral in terms of <em>u</em></li>
+                    <li>Substitute <em>x</em> back in (for indefinite integrals)</li>
+                </ol>
+                <b>Example:</b><br/>
+                <img src="eqn/u-sub1.gif" alt="u-substitution" height="35px"/><br/>
+                <br/>
+                <img src="eqn/u-sub2.gif" alt="u-substitution" height="35px"/><br/>
+                <br/>
+                <img src="eqn/u-sub3.gif" alt="u-substitution" height="35px"/>
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova-2.7.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

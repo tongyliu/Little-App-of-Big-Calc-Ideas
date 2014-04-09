@@ -7,24 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210EFA4F1773B85800C0F568 /* topics in Resources */ = {isa = PBXBuildFile; fileRef = 210EFA4E1773B85800C0F568 /* topics */; };
 		2136B941176BC64500E3FC1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B940176BC64500E3FC1E /* UIKit.framework */; };
 		2136B943176BC64500E3FC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B942176BC64500E3FC1E /* Foundation.framework */; };
 		2136B945176BC64500E3FC1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B944176BC64500E3FC1E /* CoreGraphics.framework */; };
 		2136B94B176BC64500E3FC1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2136B949176BC64500E3FC1E /* InfoPlist.strings */; };
 		2136B94D176BC64500E3FC1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B94C176BC64500E3FC1E /* main.m */; };
 		2136B951176BC64500E3FC1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B950176BC64500E3FC1E /* AppDelegate.m */; };
-		2136B953176BC64500E3FC1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B952176BC64500E3FC1E /* Default.png */; };
-		2136B955176BC64500E3FC1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B954176BC64500E3FC1E /* Default@2x.png */; };
-		2136B957176BC64500E3FC1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2136B956176BC64500E3FC1E /* Default-568h@2x.png */; };
 		2136B95A176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2136B958176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard */; };
 		2136B95D176BC64500E3FC1E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2136B95B176BC64500E3FC1E /* MainStoryboard_iPad.storyboard */; };
 		2136B960176BC64500E3FC1E /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B95F176BC64500E3FC1E /* MasterViewController.m */; };
 		2136B963176BC64500E3FC1E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B962176BC64500E3FC1E /* DetailViewController.m */; };
-		2136B96B176BC64600E3FC1E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B96A176BC64600E3FC1E /* SenTestingKit.framework */; };
 		2136B96C176BC64600E3FC1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B940176BC64500E3FC1E /* UIKit.framework */; };
 		2136B96D176BC64600E3FC1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136B942176BC64500E3FC1E /* Foundation.framework */; };
 		2136B975176BC64600E3FC1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2136B973176BC64600E3FC1E /* InfoPlist.strings */; };
 		2136B978176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2136B977176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m */; };
+		E506624F188F338B00CA47FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066244188F338B00CA47FD /* Default-568h@2x.png */; };
+		E5066250188F338B00CA47FD /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066245188F338B00CA47FD /* Default-Landscape@2x~ipad.png */; };
+		E5066251188F338B00CA47FD /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066246188F338B00CA47FD /* Default-Landscape~ipad.png */; };
+		E5066252188F338B00CA47FD /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066247188F338B00CA47FD /* Default-Portrait@2x~ipad.png */; };
+		E5066253188F338B00CA47FD /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066248188F338B00CA47FD /* Default-Portrait~ipad.png */; };
+		E5066254188F338B00CA47FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066249188F338B00CA47FD /* Default.png */; };
+		E5066255188F338B00CA47FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E506624A188F338B00CA47FD /* Default@2x.png */; };
+		E5066256188F338B00CA47FD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E506624B188F338B00CA47FD /* icon.png */; };
+		E5066257188F338B00CA47FD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E506624C188F338B00CA47FD /* icon@2x.png */; };
+		E5066258188F338B00CA47FD /* icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E506624D188F338B00CA47FD /* icon@2x~ipad.png */; };
+		E5066259188F338B00CA47FD /* icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E506624E188F338B00CA47FD /* icon~ipad.png */; };
+		E50CFD98188F347F00134F42 /* Pre-Calc Knowledge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD97188F347F00134F42 /* Pre-Calc Knowledge@2x.png */; };
+		E50CFDAA188F406200134F42 /* Applications of Derivatives.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD99188F406200134F42 /* Applications of Derivatives.png */; };
+		E50CFDAB188F406200134F42 /* Applications of Derivatives@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9A188F406200134F42 /* Applications of Derivatives@2x.png */; };
+		E50CFDAC188F406200134F42 /* Applications of Integrals.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9B188F406200134F42 /* Applications of Integrals.png */; };
+		E50CFDAD188F406200134F42 /* Applications of Integrals@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9C188F406200134F42 /* Applications of Integrals@2x.png */; };
+		E50CFDAE188F406200134F42 /* Approximating Integrals.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9D188F406200134F42 /* Approximating Integrals.png */; };
+		E50CFDAF188F406200134F42 /* Approximating Integrals@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9E188F406200134F42 /* Approximating Integrals@2x.png */; };
+		E50CFDB0188F406200134F42 /* Derivatives.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFD9F188F406200134F42 /* Derivatives.png */; };
+		E50CFDB1188F406200134F42 /* Derivatives@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA0188F406200134F42 /* Derivatives@2x.png */; };
+		E50CFDB2188F406200134F42 /* Integration Techniques.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA1188F406200134F42 /* Integration Techniques.png */; };
+		E50CFDB3188F406200134F42 /* Integration Techniques@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA2188F406200134F42 /* Integration Techniques@2x.png */; };
+		E50CFDB4188F406200134F42 /* Limits and Continuity.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA3188F406200134F42 /* Limits and Continuity.png */; };
+		E50CFDB5188F406200134F42 /* Limits and Continuity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA4188F406200134F42 /* Limits and Continuity@2x.png */; };
+		E50CFDB6188F406200134F42 /* Pre-Calc Knowledge.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA5188F406200134F42 /* Pre-Calc Knowledge.png */; };
+		E50CFDB9188F406200134F42 /* The Fundamental Theorem.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA8188F406200134F42 /* The Fundamental Theorem.png */; };
+		E50CFDBA188F406200134F42 /* The Fundamental Theorem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDA9188F406200134F42 /* The Fundamental Theorem@2x.png */; };
+		E50CFDBD188F40B200134F42 /* Series.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDBB188F40B200134F42 /* Series.png */; };
+		E50CFDBE188F40B200134F42 /* Series@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDBC188F40B200134F42 /* Series@2x.png */; };
+		E50CFDC1188F459A00134F42 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDBF188F459A00134F42 /* user.png */; };
+		E50CFDC2188F459A00134F42 /* user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E50CFDC0188F459A00134F42 /* user@2x.png */; };
+		E541674D188C505D00656AE1 /* AddCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E541674C188C505D00656AE1 /* AddCategoryViewController.m */; };
+		E54531351880EBFE002DA3D1 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54531341880EBFE002DA3D1 /* AddItemViewController.m */; };
+		E54531381880F204002DA3D1 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E54531371880F204002DA3D1 /* AboutViewController.m */; };
+		E5CFF7A218DFA12A001E5DD7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5CFF7A118DFA12A001E5DD7 /* Images.xcassets */; };
+		E5D91D8D188F47D900469D94 /* largeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D91D8C188F47D900469D94 /* largeIcon.png */; };
+		E5D91D91188F4FE800469D94 /* detail_disclosure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D91D90188F4FE800469D94 /* detail_disclosure@2x.png */; };
+		E5D91D93188F509700469D94 /* detail_disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D91D92188F509700469D94 /* detail_disclosure.png */; };
+		E5EF52CA188197C400819307 /* UserTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EF52C9188197C400819307 /* UserTopic.m */; };
+		E5F168E5188201AF00054F93 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F168E4188201AF00054F93 /* SecondViewController.m */; };
+		E5F168E718820C2C00054F93 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F168E618820C2C00054F93 /* data.plist */; };
+		E5F168EA18821B0E00054F93 /* EditItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F168E918821B0E00054F93 /* EditItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210EFA4E1773B85800C0F568 /* topics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = topics; sourceTree = "<group>"; };
 		2136B93D176BC64500E3FC1E /* Little App of Big Calc Ideas - Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little App of Big Calc Ideas - Native.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2136B940176BC64500E3FC1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2136B942176BC64500E3FC1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,21 +88,66 @@
 		2136B94E176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little App of Big Calc Ideas - Native-Prefix.pch"; sourceTree = "<group>"; };
 		2136B94F176BC64500E3FC1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2136B950176BC64500E3FC1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2136B952176BC64500E3FC1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2136B954176BC64500E3FC1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2136B956176BC64500E3FC1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2136B959176BC64500E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		2136B95C176BC64500E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		2136B95E176BC64500E3FC1E /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		2136B95F176BC64500E3FC1E /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		2136B961176BC64500E3FC1E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		2136B962176BC64500E3FC1E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little App of Big Calc Ideas - NativeTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2136B96A176BC64600E3FC1E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Little App of Big Calc Ideas - NativeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2136B972176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Little App of Big Calc Ideas - NativeTests-Info.plist"; sourceTree = "<group>"; };
 		2136B974176BC64600E3FC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2136B976176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Little_App_of_Big_Calc_Ideas___NativeTests.h"; sourceTree = "<group>"; };
 		2136B977176BC64600E3FC1E /* Little_App_of_Big_Calc_Ideas___NativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Little_App_of_Big_Calc_Ideas___NativeTests.m"; sourceTree = "<group>"; };
+		215D32CA1779FFDA00143B1F /* Little App of Big Calc Ideas - Native.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Little App of Big Calc Ideas - Native.entitlements"; sourceTree = "<group>"; };
+		E5066244188F338B00CA47FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E5066245188F338B00CA47FD /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		E5066246188F338B00CA47FD /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		E5066247188F338B00CA47FD /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		E5066248188F338B00CA47FD /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		E5066249188F338B00CA47FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E506624A188F338B00CA47FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E506624B188F338B00CA47FD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E506624C188F338B00CA47FD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		E506624D188F338B00CA47FD /* icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x~ipad.png"; sourceTree = "<group>"; };
+		E506624E188F338B00CA47FD /* icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon~ipad.png"; sourceTree = "<group>"; };
+		E50CFD97188F347F00134F42 /* Pre-Calc Knowledge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pre-Calc Knowledge@2x.png"; sourceTree = "<group>"; };
+		E50CFD99188F406200134F42 /* Applications of Derivatives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Applications of Derivatives.png"; sourceTree = "<group>"; };
+		E50CFD9A188F406200134F42 /* Applications of Derivatives@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Applications of Derivatives@2x.png"; sourceTree = "<group>"; };
+		E50CFD9B188F406200134F42 /* Applications of Integrals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Applications of Integrals.png"; sourceTree = "<group>"; };
+		E50CFD9C188F406200134F42 /* Applications of Integrals@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Applications of Integrals@2x.png"; sourceTree = "<group>"; };
+		E50CFD9D188F406200134F42 /* Approximating Integrals.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Approximating Integrals.png"; sourceTree = "<group>"; };
+		E50CFD9E188F406200134F42 /* Approximating Integrals@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Approximating Integrals@2x.png"; sourceTree = "<group>"; };
+		E50CFD9F188F406200134F42 /* Derivatives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Derivatives.png; sourceTree = "<group>"; };
+		E50CFDA0188F406200134F42 /* Derivatives@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Derivatives@2x.png"; sourceTree = "<group>"; };
+		E50CFDA1188F406200134F42 /* Integration Techniques.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Integration Techniques.png"; sourceTree = "<group>"; };
+		E50CFDA2188F406200134F42 /* Integration Techniques@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Integration Techniques@2x.png"; sourceTree = "<group>"; };
+		E50CFDA3188F406200134F42 /* Limits and Continuity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limits and Continuity.png"; sourceTree = "<group>"; };
+		E50CFDA4188F406200134F42 /* Limits and Continuity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Limits and Continuity@2x.png"; sourceTree = "<group>"; };
+		E50CFDA5188F406200134F42 /* Pre-Calc Knowledge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pre-Calc Knowledge.png"; sourceTree = "<group>"; };
+		E50CFDA8188F406200134F42 /* The Fundamental Theorem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Fundamental Theorem.png"; sourceTree = "<group>"; };
+		E50CFDA9188F406200134F42 /* The Fundamental Theorem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "The Fundamental Theorem@2x.png"; sourceTree = "<group>"; };
+		E50CFDBB188F40B200134F42 /* Series.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Series.png; sourceTree = "<group>"; };
+		E50CFDBC188F40B200134F42 /* Series@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Series@2x.png"; sourceTree = "<group>"; };
+		E50CFDBF188F459A00134F42 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		E50CFDC0188F459A00134F42 /* user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user@2x.png"; sourceTree = "<group>"; };
+		E541674B188C505D00656AE1 /* AddCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCategoryViewController.h; sourceTree = "<group>"; };
+		E541674C188C505D00656AE1 /* AddCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCategoryViewController.m; sourceTree = "<group>"; };
+		E54531331880EBFE002DA3D1 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		E54531341880EBFE002DA3D1 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		E54531361880F204002DA3D1 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		E54531371880F204002DA3D1 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		E5CFF7A118DFA12A001E5DD7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5D91D8C188F47D900469D94 /* largeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeIcon.png; sourceTree = "<group>"; };
+		E5D91D90188F4FE800469D94 /* detail_disclosure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail_disclosure@2x.png"; sourceTree = "<group>"; };
+		E5D91D92188F509700469D94 /* detail_disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_disclosure.png; sourceTree = "<group>"; };
+		E5EF52C8188197C400819307 /* UserTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTopic.h; sourceTree = "<group>"; };
+		E5EF52C9188197C400819307 /* UserTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTopic.m; sourceTree = "<group>"; };
+		E5F168E3188201AF00054F93 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E5F168E4188201AF00054F93 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E5F168E618820C2C00054F93 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		E5F168E818821B0E00054F93 /* EditItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditItemViewController.h; sourceTree = "<group>"; };
+		E5F168E918821B0E00054F93 /* EditItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +165,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2136B96B176BC64600E3FC1E /* SenTestingKit.framework in Frameworks */,
 				2136B96C176BC64600E3FC1E /* UIKit.framework in Frameworks */,
 				2136B96D176BC64600E3FC1E /* Foundation.framework in Frameworks */,
 			);
@@ -92,6 +176,7 @@
 		2136B934176BC64500E3FC1E = {
 			isa = PBXGroup;
 			children = (
+				217D255A1775FE0D001696D0 /* Resources */,
 				2136B946176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */,
 				2136B970176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests */,
 				2136B93F176BC64500E3FC1E /* Frameworks */,
@@ -103,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				2136B93D176BC64500E3FC1E /* Little App of Big Calc Ideas - Native.app */,
-				2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */,
+				2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +199,6 @@
 				2136B940176BC64500E3FC1E /* UIKit.framework */,
 				2136B942176BC64500E3FC1E /* Foundation.framework */,
 				2136B944176BC64500E3FC1E /* CoreGraphics.framework */,
-				2136B96A176BC64600E3FC1E /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,14 +206,30 @@
 		2136B946176BC64500E3FC1E /* Little App of Big Calc Ideas - Native */ = {
 			isa = PBXGroup;
 			children = (
+				215D32CA1779FFDA00143B1F /* Little App of Big Calc Ideas - Native.entitlements */,
+				210EFA4E1773B85800C0F568 /* topics */,
 				2136B94F176BC64500E3FC1E /* AppDelegate.h */,
 				2136B950176BC64500E3FC1E /* AppDelegate.m */,
+				E5F168E618820C2C00054F93 /* data.plist */,
 				2136B958176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard */,
 				2136B95B176BC64500E3FC1E /* MainStoryboard_iPad.storyboard */,
+				E54531361880F204002DA3D1 /* AboutViewController.h */,
+				E54531371880F204002DA3D1 /* AboutViewController.m */,
+				E54531331880EBFE002DA3D1 /* AddItemViewController.h */,
+				E54531341880EBFE002DA3D1 /* AddItemViewController.m */,
+				E5EF52C8188197C400819307 /* UserTopic.h */,
+				E5EF52C9188197C400819307 /* UserTopic.m */,
 				2136B95E176BC64500E3FC1E /* MasterViewController.h */,
 				2136B95F176BC64500E3FC1E /* MasterViewController.m */,
+				E541674B188C505D00656AE1 /* AddCategoryViewController.h */,
+				E541674C188C505D00656AE1 /* AddCategoryViewController.m */,
+				E5F168E3188201AF00054F93 /* SecondViewController.h */,
+				E5F168E4188201AF00054F93 /* SecondViewController.m */,
 				2136B961176BC64500E3FC1E /* DetailViewController.h */,
 				2136B962176BC64500E3FC1E /* DetailViewController.m */,
+				E5F168E818821B0E00054F93 /* EditItemViewController.h */,
+				E5F168E918821B0E00054F93 /* EditItemViewController.m */,
+				E5CFF7A118DFA12A001E5DD7 /* Images.xcassets */,
 				2136B947176BC64500E3FC1E /* Supporting Files */,
 			);
 			path = "Little App of Big Calc Ideas - Native";
@@ -142,9 +242,6 @@
 				2136B949176BC64500E3FC1E /* InfoPlist.strings */,
 				2136B94C176BC64500E3FC1E /* main.m */,
 				2136B94E176BC64500E3FC1E /* Little App of Big Calc Ideas - Native-Prefix.pch */,
-				2136B952176BC64500E3FC1E /* Default.png */,
-				2136B954176BC64500E3FC1E /* Default@2x.png */,
-				2136B956176BC64500E3FC1E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,6 +263,47 @@
 				2136B973176BC64600E3FC1E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		217D255A1775FE0D001696D0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5D91D92188F509700469D94 /* detail_disclosure.png */,
+				E5D91D90188F4FE800469D94 /* detail_disclosure@2x.png */,
+				E5D91D8C188F47D900469D94 /* largeIcon.png */,
+				E50CFDBF188F459A00134F42 /* user.png */,
+				E50CFDC0188F459A00134F42 /* user@2x.png */,
+				E50CFDBB188F40B200134F42 /* Series.png */,
+				E50CFDBC188F40B200134F42 /* Series@2x.png */,
+				E50CFD99188F406200134F42 /* Applications of Derivatives.png */,
+				E50CFD9A188F406200134F42 /* Applications of Derivatives@2x.png */,
+				E50CFD9B188F406200134F42 /* Applications of Integrals.png */,
+				E50CFD9C188F406200134F42 /* Applications of Integrals@2x.png */,
+				E50CFD9D188F406200134F42 /* Approximating Integrals.png */,
+				E50CFD9E188F406200134F42 /* Approximating Integrals@2x.png */,
+				E50CFD9F188F406200134F42 /* Derivatives.png */,
+				E50CFDA0188F406200134F42 /* Derivatives@2x.png */,
+				E50CFDA1188F406200134F42 /* Integration Techniques.png */,
+				E50CFDA2188F406200134F42 /* Integration Techniques@2x.png */,
+				E50CFDA3188F406200134F42 /* Limits and Continuity.png */,
+				E50CFDA4188F406200134F42 /* Limits and Continuity@2x.png */,
+				E50CFDA5188F406200134F42 /* Pre-Calc Knowledge.png */,
+				E50CFDA8188F406200134F42 /* The Fundamental Theorem.png */,
+				E50CFDA9188F406200134F42 /* The Fundamental Theorem@2x.png */,
+				E50CFD97188F347F00134F42 /* Pre-Calc Knowledge@2x.png */,
+				E5066244188F338B00CA47FD /* Default-568h@2x.png */,
+				E5066245188F338B00CA47FD /* Default-Landscape@2x~ipad.png */,
+				E5066246188F338B00CA47FD /* Default-Landscape~ipad.png */,
+				E5066247188F338B00CA47FD /* Default-Portrait@2x~ipad.png */,
+				E5066248188F338B00CA47FD /* Default-Portrait~ipad.png */,
+				E5066249188F338B00CA47FD /* Default.png */,
+				E506624A188F338B00CA47FD /* Default@2x.png */,
+				E506624B188F338B00CA47FD /* icon.png */,
+				E506624C188F338B00CA47FD /* icon@2x.png */,
+				E506624D188F338B00CA47FD /* icon@2x~ipad.png */,
+				E506624E188F338B00CA47FD /* icon~ipad.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,8 +342,8 @@
 			);
 			name = "Little App of Big Calc Ideas - NativeTests";
 			productName = "Little App of Big Calc Ideas - NativeTests";
-			productReference = 2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 2136B969176BC64600E3FC1E /* Little App of Big Calc Ideas - NativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -213,8 +351,14 @@
 		2136B935176BC64500E3FC1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastTestingUpgradeCheck = 0510;
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Tong;
+				TargetAttributes = {
+					2136B93C176BC64500E3FC1E = {
+						DevelopmentTeam = 7AF5Z7A955;
+					};
+				};
 			};
 			buildConfigurationList = 2136B938176BC64500E3FC1E /* Build configuration list for PBXProject "Little App of Big Calc Ideas - Native" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -239,12 +383,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50CFDBD188F40B200134F42 /* Series.png in Resources */,
+				E5CFF7A218DFA12A001E5DD7 /* Images.xcassets in Resources */,
+				E50CFDB6188F406200134F42 /* Pre-Calc Knowledge.png in Resources */,
+				E50CFDB0188F406200134F42 /* Derivatives.png in Resources */,
+				E5066256188F338B00CA47FD /* icon.png in Resources */,
+				E50CFDB9188F406200134F42 /* The Fundamental Theorem.png in Resources */,
+				E5066255188F338B00CA47FD /* Default@2x.png in Resources */,
 				2136B94B176BC64500E3FC1E /* InfoPlist.strings in Resources */,
-				2136B953176BC64500E3FC1E /* Default.png in Resources */,
-				2136B955176BC64500E3FC1E /* Default@2x.png in Resources */,
-				2136B957176BC64500E3FC1E /* Default-568h@2x.png in Resources */,
 				2136B95A176BC64500E3FC1E /* MainStoryboard_iPhone.storyboard in Resources */,
+				E50CFD98188F347F00134F42 /* Pre-Calc Knowledge@2x.png in Resources */,
+				E5066258188F338B00CA47FD /* icon@2x~ipad.png in Resources */,
+				E5066259188F338B00CA47FD /* icon~ipad.png in Resources */,
+				E50CFDC1188F459A00134F42 /* user.png in Resources */,
+				210EFA4F1773B85800C0F568 /* topics in Resources */,
+				E50CFDAD188F406200134F42 /* Applications of Integrals@2x.png in Resources */,
+				E5066252188F338B00CA47FD /* Default-Portrait@2x~ipad.png in Resources */,
+				E50CFDC2188F459A00134F42 /* user@2x.png in Resources */,
+				E50CFDB4188F406200134F42 /* Limits and Continuity.png in Resources */,
+				E5066250188F338B00CA47FD /* Default-Landscape@2x~ipad.png in Resources */,
+				E50CFDB2188F406200134F42 /* Integration Techniques.png in Resources */,
+				E5D91D91188F4FE800469D94 /* detail_disclosure@2x.png in Resources */,
+				E50CFDB1188F406200134F42 /* Derivatives@2x.png in Resources */,
+				E50CFDAF188F406200134F42 /* Approximating Integrals@2x.png in Resources */,
+				E5D91D8D188F47D900469D94 /* largeIcon.png in Resources */,
+				E50CFDBA188F406200134F42 /* The Fundamental Theorem@2x.png in Resources */,
+				E5066257188F338B00CA47FD /* icon@2x.png in Resources */,
 				2136B95D176BC64500E3FC1E /* MainStoryboard_iPad.storyboard in Resources */,
+				E50CFDB3188F406200134F42 /* Integration Techniques@2x.png in Resources */,
+				E5D91D93188F509700469D94 /* detail_disclosure.png in Resources */,
+				E5F168E718820C2C00054F93 /* data.plist in Resources */,
+				E50CFDAE188F406200134F42 /* Approximating Integrals.png in Resources */,
+				E50CFDAC188F406200134F42 /* Applications of Integrals.png in Resources */,
+				E50CFDB5188F406200134F42 /* Limits and Continuity@2x.png in Resources */,
+				E5066253188F338B00CA47FD /* Default-Portrait~ipad.png in Resources */,
+				E50CFDAA188F406200134F42 /* Applications of Derivatives.png in Resources */,
+				E50CFDBE188F40B200134F42 /* Series@2x.png in Resources */,
+				E5066251188F338B00CA47FD /* Default-Landscape~ipad.png in Resources */,
+				E506624F188F338B00CA47FD /* Default-568h@2x.png in Resources */,
+				E5066254188F338B00CA47FD /* Default.png in Resources */,
+				E50CFDAB188F406200134F42 /* Applications of Derivatives@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +458,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2136B94D176BC64500E3FC1E /* main.m in Sources */,
+				E54531351880EBFE002DA3D1 /* AddItemViewController.m in Sources */,
 				2136B951176BC64500E3FC1E /* AppDelegate.m in Sources */,
+				E54531381880F204002DA3D1 /* AboutViewController.m in Sources */,
+				E5F168E5188201AF00054F93 /* SecondViewController.m in Sources */,
+				E5EF52CA188197C400819307 /* UserTopic.m in Sources */,
 				2136B960176BC64500E3FC1E /* MasterViewController.m in Sources */,
+				E5F168EA18821B0E00054F93 /* EditItemViewController.m in Sources */,
+				E541674D188C505D00656AE1 /* AddCategoryViewController.m in Sources */,
 				2136B963176BC64500E3FC1E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +536,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lingqun Liu (52S97JBH53)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -365,10 +549,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "BC709DF5-974B-4C79-8042-F0D839BE42AB";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Debug;
 		};
@@ -384,14 +570,16 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lingqun Liu (7AF5Z7A955)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EC1E7311-A638-4886-BE86-008B5B664195";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -401,10 +589,20 @@
 		2136B97C176BC64600E3FC1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: Lingqun Liu (52S97JBH53)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lingqun Liu (52S97JBH53)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
 				INFOPLIST_FILE = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "BC709DF5-974B-4C79-8042-F0D839BE42AB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BC709DF5-974B-4C79-8042-F0D839BE42AB";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -412,10 +610,19 @@
 		2136B97D176BC64600E3FC1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lingqun Liu (7AF5Z7A955)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Lingqun Liu (7AF5Z7A955)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
 				INFOPLIST_FILE = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EC1E7311-A638-4886-BE86-008B5B664195";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EC1E7311-A638-4886-BE86-008B5B664195";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,16 +631,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little App of Big Calc Ideas - Native.app/Little App of Big Calc Ideas - Native";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lingqun Liu (52S97JBH53)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lingqun Liu (52S97JBH53)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
 				INFOPLIST_FILE = "Little App of Big Calc Ideas - NativeTests/Little App of Big Calc Ideas - NativeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8E984D33-5FE7-46A0-B3C3-049E5EB71142";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8E984D33-5FE7-46A0-B3C3-049E5EB71142";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -441,16 +652,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Little App of Big Calc Ideas - Native.app/Little App of Big Calc Ideas - Native";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lingqun Liu (52S97JBH53)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lingqun Liu (52S97JBH53)";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Little App of Big Calc Ideas - Native/Little App of Big Calc Ideas - Native-Prefix.pch";
 				INFOPLIST_FILE = "Little App of Big Calc Ideas - NativeTests/Little App of Big Calc Ideas - NativeTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8E984D33-5FE7-46A0-B3C3-049E5EB71142";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8E984D33-5FE7-46A0-B3C3-049E5EB71142";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -473,6 +688,7 @@
 				2136B97D176BC64600E3FC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2136B97E176BC64600E3FC1E /* Build configuration list for PBXNativeTarget "Little App of Big Calc Ideas - NativeTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +697,7 @@
 				2136B980176BC64600E3FC1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
